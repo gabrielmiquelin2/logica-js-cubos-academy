@@ -1,16 +1,18 @@
+//Concatenando = juntar/colar uma variavel junto com um texto
+
 const pessoa = {
   nome: "Gabriel",
-  idade:  65,
+  idade:  11,
   ehMaiorDeIdade: true,
   altura: 1.77
 };
 
 if (pessoa.idade < 18){
-    console.log("A Pessoa é menor de idade!")
+    console.log(pessoa.nome + " é menor de idade!")
 }else if (pessoa.idade < 60 ){
-    console.log("A pessoa é adulta!")
+    console.log("é adulta!")
 }else{
-   console.log("A pessoa é idosa!")
+   console.log(" é idosa!")
 }
 
 
