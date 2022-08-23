@@ -2,8 +2,18 @@
 
 const listaDeComprars = ["Arroz", "Carne", "Batata", "Vinagre", "Peixe"]
 //IMPRIMIR NUMEROS DE 0 a 100!
-let indice = 0
-while(indice < listaDeComprars.length)/*dentro das aspas coloca condição*/{
+
+
+for (let indice = 0; indice < listaDeComprars.length; indice++) {
     console.log(listaDeComprars[indice]);
-    indice++;
 }
+
+
+
+ //Outra forma de fazer a msm coisa
+ //let indice = 0;
+ //while(indice < listaDeComprars.length){
+ // console.log(listaDeComprars[indice]);
+ // indice++;
+// }
+
