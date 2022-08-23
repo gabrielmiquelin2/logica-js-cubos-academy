@@ -1,6 +1,6 @@
 //OPERADORES LÓGICOS
 
-// ! = NEGAÇÂO
+
 
 
 //EXBIR OS REQUISITOS MINIMOS PARA PODER BRINCAR
@@ -13,6 +13,10 @@ const pessoa = {
   nome: "Gabriel",
   idade: 13,
   altura: 1.90,
+  temPassaporte: false,
 }
 
-
+// ! = NEGAÇÂO
+if(!pessoa.temPassaporte){
+  console.log("BARRADO,voçe não tem passaporte!") 
+}
