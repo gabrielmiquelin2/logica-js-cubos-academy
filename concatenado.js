@@ -14,8 +14,7 @@ if (pessoa.idade < 18){
 }else if (pessoa.idade < 60 ){
     console.log(`${pessoa.nome} é adulto`)
 }else{
-   console.log(`${pessoa.nome} é um idoso de $
-    {pessoa.idade} anos.`);
+   console.log(`${pessoa.nome} é um idosso  ${pessoa.idade} anos`);
 }
 
 
