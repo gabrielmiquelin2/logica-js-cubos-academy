@@ -1,8 +1,6 @@
 //Lopps
 
 const listaDeComprars = ["Arroz", "Carne", "Batata", "Vinagre", "Peixe"]
-//IMPRIMIR NUMEROS DE 0 a 100!
-
 
 for (let indice = 0; indice < listaDeComprars.length; indice++) {
     console.log(listaDeComprars[indice]);
